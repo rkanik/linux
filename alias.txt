@@ -1,0 +1,15 @@
+alias refresh="source ~/.bashrc && source ~/.bash_profile"
+alias bashrc="code ~/.bashrc"
+alias bashp="code ~/.bash_profile"
+
+# NODE
+alias nodes="volta list all"
+alias n14="volta install node@14"
+alias n16="volta install node@16"
+alias n18="volta install node@18"
+alias nlts="volta install node"
+
+# PHP
+alias phpls="sudo update-alternatives --config php"
+alias php81="sudo update-alternatives --set php /usr/bin/php8.1 && php -v"
+alias php74="sudo update-alternatives --set php /usr/bin/php7.4 && php -v"
